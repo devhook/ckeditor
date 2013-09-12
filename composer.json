@@ -16,13 +16,5 @@
             "Devhook\\Ckeditor": "src/"
         }
     },
-    "scripts": {
-		"post-install-cmd": [
-			"php artisan asset:publish devhook/ckeditor"
-		],
-		"post-update-cmd": [
-			"php artisan asset:publish devhook/ckeditor"
-		]
-    },
     "minimum-stability": "dev"
 }
