@@ -1,0 +1,20 @@
+{
+    "name": "devhook/ckeditor",
+    "description": "Ckeditor package for laravel 4",
+    "authors": [
+        {
+            "name": "zb3k",
+            "email": "d.bourim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Devhook\\Ckeditor": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
